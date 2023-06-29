@@ -10,6 +10,8 @@ public class Main {
         Palindrome palindrome = new Palindrome();
         System.out.println(palindrome.isPalindrome(-123));
 
-
+        //LongestCommonPrefix
+        LongestCommonPrefix longestCommonPrefixObj = new LongestCommonPrefix();
+        System.out.println(longestCommonPrefixObj.longestCommonPrefix(new String[]{"flower","flow","flight"}));
     }
 }
